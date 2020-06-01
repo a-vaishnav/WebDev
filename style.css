@@ -1,0 +1,25 @@
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    border: 2px solid;
+    margin: 5px;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    background-color: gainsboro;
+}
+
+th,td {
+    border: 1px solid;
+    padding: 2px;
+    text-align: center;
+}
+
+#bottom{
+    font-size: 40px;
+}
+
+.lec1{
+    color: green;
+}
