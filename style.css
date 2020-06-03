@@ -1,0 +1,28 @@
+@media (min-width : 500px)
+{
+    h1::before {
+        content: "Welcome to the web page";
+    }
+}
+
+@media (max-width : 499px)
+{
+    h1::before {
+        content: "Welcome";
+    }
+}
+
+.container >div {
+    background-color: sandybrown;
+    margin: 20px;
+    padding: 5px;
+    font-size: 10px;
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
